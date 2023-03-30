@@ -1,0 +1,18 @@
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+}
+.wrapper{
+    
+}
+.inner{
+    width: 90%;
+    margin: 0 auto;
+}
+.function-wrap { height: 19px; overflow: hidden; } 
+.function-box { transition: 0.3s; } 
+.function:hover .function-box { transform: translateY(-50%); transition: 0.3s; } 
+.function-box span{display: block; } 
