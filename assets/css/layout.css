@@ -55,7 +55,7 @@
 .footer .group-top .sub-list li+li { margin-top: 16px; } 
 .footer .group-top .sub-item { } 
 .footer .group-top .sub-item a { font-size: 1.2em; transition: 0.3s; } 
-.footer .group-top .sub-item a:hover { color: #e57c1b; transition: 0.3s; } 
+.footer .group-top .sub-item a:hover { color: #ffaefb; transition: 0.3s; } 
 
 
 .footer .group-top .inner1 { font-size: 16px; line-height: 1.4; text-transform: uppercase; } 
