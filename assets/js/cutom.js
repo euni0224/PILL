@@ -101,8 +101,8 @@ $(function(){
                 intro1
                 .addLabel('a')
                 .to(num, { opacity: 0},'a')
-                .to(num, { "height":'0'},'a')
-                .to(num, { 'margin-bottom': '0'},'a')
+                .to(num, { "height":'0',delay:0.4},'a')
+                .to(num, { 'margin-bottom': '0',delay:0.4},'a')
                 .to(num, { 'margin-top': '0'})
             }
     })
@@ -110,16 +110,16 @@ $(function(){
     $('[data-animation="left"]').each(function(i,a){
 
         gsap.to(a, {
-             scrollTrigger: {
-               trigger: a,
-               containerAnimation: horiMotion,
-               start: "0% 100%",
-               end:"100% 50%",
+            scrollTrigger: {
+                trigger: a,
+                containerAnimation: horiMotion,
+                start: "0% 100%",
+                end:"100% 50%",
             //    markers:true,
-               scrub:1
-             },
-             transform: 'scale(1.1)',
-       });
+                scrub:1
+            },
+            transform: 'scale(1.1)',
+        });
 
 
     })
